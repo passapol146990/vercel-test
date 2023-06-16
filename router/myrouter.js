@@ -1,5 +1,4 @@
 const express = require('express')
-const { route, router } = require('..')
 const router = express.Router()
 
 router.get('/',(req,res)=>{
